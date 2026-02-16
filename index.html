@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Week 5 Lab</title>
+
+  <!-- Link CSS in head -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Week 5 Lab - Event Handlers</h1>
+
+  <!-- Form -->
+  <form id="myForm">
+    <label for="topicSelect">Choose an option:</label>
+    <select id="topicSelect">
+      <option value="">-- Select --</option>
+      <option value="normal">Normal</option>
+      <option value="special">Special (shows checkbox)</option>
+      <option value="other">Other</option>
+    </select>
+
+    <!-- Hidden checkbox + label -->
+    <div id="extraBox" class="hidden">
+      <label for="extraCheck">Extra Option:</label>
+      <input type="checkbox" id="extraCheck">
+    </div>
+
+    <br><br>
+
+    <label for="textInput">Type something:</label>
+    <input type="text" id="textInput" placeholder="Press Enter here">
+  </form>
+
+  <!-- Script right above closing body -->
+  <script src="script.js"></script>
+</body>
+</html>
